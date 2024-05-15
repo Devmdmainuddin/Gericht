@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
 // import { useState } from "react";
 // import { IoMdCloseCircleOutline } from "react-icons/io";
-
+import logo from '../../public/logo.png'
 const Navbar = () => {
     // const [isMenuOpen, setIsMenuOpen] = useState(false)
 const show=()=>{
@@ -14,7 +14,7 @@ const show=()=>{
         <div className="w-full bg-[#0C0B08]">
 
             <div className="flex justify-between items-center p-6 text-white relative  max-w-[1680px] mx-auto">
-                <div className="logo w-full lg:w-auto"><Link>mainuddin</Link></div>
+                <div className="logo w-full lg:w-auto"><Link><img src={logo} alt="" /></Link></div>
                 <ul className="showhid hidden lg:flex gap-x-8 flex-col  md:flex-row gap-y-4 md:static absolute top-full left-12">
                     <li><Link>home</Link></li>
                     <li><Link>pages</Link></li>
@@ -33,7 +33,7 @@ const show=()=>{
                 <CiMenuBurger onClick={show} className="lg:hidden inline-block " />
 
                 <div className="flex lg:hidden ">
-                    <div className="togglemenu absolute top-full left-0 bg-slate-200 w-full opacity-0">
+                    <div className="togglemenu absolute top-full left-0 bg-slate-700 w-full opacity-0 z-30">
                         <ul className="p-6 flex flex-col gap-y-6  ">
                             <li><Link>home</Link></li>
                             <li><Link>pages</Link></li>
