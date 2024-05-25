@@ -1,4 +1,4 @@
-import gimg from '../../public/G.png'
+import Gblack from '../../public/Gblack.png'
 import knip from '../../public/kn.png'
 import spon from '../../public/spoon.png'
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
                     <img className='w-[84px] h-[703px]' src={knip} alt="" />
                 </div>
                 <div className="w-[391px] h-[415px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-0">
-                        <img className='w-full h-full' src={gimg} alt="" />
+                        <img className='w-full h-full ' src={Gblack} alt="" />
                     </div>
                 <div className="w-[523px] h-[292px] flex lg:items-start items-center  flex-col z-20">
                     <h2 className="text-[64px] font-semibold text-[#DCCA87] capitalize font-cormorant">Our History</h2>

@@ -1,15 +1,13 @@
-import spon from '../../../public/spoon.png'
+
+import SectionTitel from '../shared/SectionTitel';
 
 const SpecialMenu = () => {
     return (
         <div className='bg-[#0C0C0C] w-full pb-[152px]'>
 
             <div className='relative max-w-[1680px]   mx-auto'>
-                <div className='text-center'>
-                    <h5 className='text-[#AAAAAA] text-[32px]'>Menu that fits you palatte</h5>
-                    <img className='my-2 mx-auto w-10' src={spon} alt="" />
-                    <h2 className='text-[64px] font-semibold text-[#DCCA87] capitalize font-cormorant'>Today’s Special</h2>
-                </div>
+
+            <SectionTitel  titledescaption={'Menu that fits you palatte'} title={"Today’s Special"}></SectionTitel>
 
                 <div className='flex justify-center flex-col lg:flex-row items-center gap-x-8 mt-[64px]'>
 

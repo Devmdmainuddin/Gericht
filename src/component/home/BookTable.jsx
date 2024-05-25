@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import icon from '../../../public/icon.png'
-import spon from '../../../public/spoon.png'
+
 import TimePicker from 'react-time-picker';
 
 import 'react-time-picker/dist/TimePicker.css';
 import 'react-clock/dist/Clock.css';
+import SectionTitel from '../shared/SectionTitel';
 
 const BookTable = () => {
     const [value, onChange] = useState('10:00');
@@ -13,12 +14,7 @@ const BookTable = () => {
             <div className='relative max-w-[1680px] mx-auto '>
                 <img className='w-[146px] h-[146px] absolute -top-[75px] right-0 text-black  ' src={icon} alt="" />
                 <div className='pt-[200px]'>
-                    <div className='text-center'>
-                        <h5 className='text-[#AAAAAA] text-[32px]'>Reservations</h5>
-                        <img className='my-2 mx-auto w-10' src={spon} alt="" />
-                        <h2 className='text-[64px] font-semibold text-[#DCCA87] capitalize font-cormorant'>Book A Table</h2>
-                    </div>
-
+                <SectionTitel  titledescaption={'Reservations'} title={"Book A Table"}></SectionTitel>
                     <div className='mt-[63px]' >
                         <form action="" >
                             <div className='flex justify-between items-center flex-col lg:flex-row lg:gap-x-8 gap-y-8'>
