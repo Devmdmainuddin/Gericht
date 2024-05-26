@@ -19,7 +19,7 @@ const show=()=>{
                     <li><Link>home</Link></li>
                     <li><Link>pages</Link></li>
                     <li><Link to='/contact'>contact us</Link></li>
-                    <li><Link>bloge</Link></li>
+                    <li><Link to='/blogs'>bloge</Link></li>
                     <li><Link>landing</Link></li>
 
                 </ul>
