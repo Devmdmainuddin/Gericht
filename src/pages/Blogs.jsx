@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
 import Cover from "../component/shared/Cover";
-import { IoSearchOutline } from "react-icons/io5";
-import { FaFacebookF } from "react-icons/fa6";
-import { RiTwitterLine } from "react-icons/ri";
-import { SiInstagram } from "react-icons/si";
 import Sidebar from "../component/shared/Sidebar";
 
 const Blogs = () => {
