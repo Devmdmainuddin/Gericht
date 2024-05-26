@@ -18,7 +18,7 @@ const show=()=>{
                 <ul className="showhid hidden lg:flex gap-x-8 flex-col  md:flex-row gap-y-4 md:static absolute top-full left-12">
                     <li><Link>home</Link></li>
                     <li><Link>pages</Link></li>
-                    <li><Link>contact us</Link></li>
+                    <li><Link to='/contact'>contact us</Link></li>
                     <li><Link>bloge</Link></li>
                     <li><Link>landing</Link></li>
 
