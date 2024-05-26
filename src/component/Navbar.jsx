@@ -16,11 +16,11 @@ const show=()=>{
             <div className="flex justify-between items-center p-6 text-white relative  max-w-[1680px] mx-auto">
                 <div className="logo w-full lg:w-auto"><Link><img src={logo} alt="" /></Link></div>
                 <ul className="showhid hidden lg:flex gap-x-8 flex-col  md:flex-row gap-y-4 md:static absolute top-full left-12">
-                    <li><Link>home</Link></li>
-                    <li><Link>pages</Link></li>
+                    <li><Link to='/'>home</Link></li>
+                    <li><Link to='/services'>Services</Link></li>
                     <li><Link to='/contact'>contact us</Link></li>
                     <li><Link to='/blogs'>bloge</Link></li>
-                    <li><Link>landing</Link></li>
+                   
 
                 </ul>
                 <div className="hidden lg:flex">

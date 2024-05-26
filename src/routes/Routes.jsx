@@ -3,6 +3,8 @@ import Layout from "../layout/Layout";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Blogs from "../pages/Blogs";
+import Services from "../pages/Services";
+import BlogDetaills from "../pages/BlogDetaills";
 
 
 
@@ -20,8 +22,16 @@ const router = createBrowserRouter([
           element: <Contact/>,
         },
         {
+          path: "/services",
+          element: <Services/>,
+        },
+        {
           path: "/blogs",
           element: <Blogs/>,
+        },
+        {
+          path: "/blogsDetaills",
+          element: <BlogDetaills/>,
         },
       ],
     },

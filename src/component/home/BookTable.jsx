@@ -16,7 +16,7 @@ const BookTable = () => {
                 <div className='pt-[200px]'>
                 <SectionTitel  titledescaption={'Reservations'} title={"Book A Table"}></SectionTitel>
                     <div className='mt-[63px]' >
-                        <form action="" >
+                        <form action="px-8" >
                             <div className='flex justify-between items-center flex-col lg:flex-row lg:gap-x-8 gap-y-8'>
                                 <select name="" id="" className='p-4 border border-[#DCCA87] text-[#AAAAAA] bg-inherit w-full'>
                                     <option value="one">1 Person</option>
