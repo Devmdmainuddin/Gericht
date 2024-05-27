@@ -2,7 +2,7 @@ import SectionTitleLeft from "../shared/SectionTitleLeft";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import 'swiper/css/free-mode';
-import { Autoplay, FreeMode } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 const Gallery = () => {
     return (
         <div className="bg-[#0C0C0C] pt-[280px] pb-[128px] ">
@@ -18,29 +18,35 @@ const Gallery = () => {
                     <div className="w-[970px] h-[688px] z-10">
                         <Swiper
                             loop={true}
-                            slidesPerView={3}
-                            spaceBetween={10}
+                            slidesPerView={1}
+                            spaceBetween={1}
                             breakpoints={{
-                               
-                              
-                            }}
-                            freeMode={true}
+                                  768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 40,
+                                  },
+                                  1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 40,
+                                  },
+                              }}
+                            // freeMode={true}
                             autoplay={{
                                 delay: 5000,
                                 disableOnInteraction: false,
                             }}
 
-                            modules={[Autoplay, FreeMode]}
+                            modules={[Autoplay]}
                             className="gallery">
 
-
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className="w-[301px] h-[447px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
+{/* md:w-[301px] md:h-[447px] w-[301px] */}
+                            <SwiperSlide> <img className=" w-[301px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-[301px] object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-[301px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-[301px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-[301px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-[301px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-[301px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
 
                         </Swiper>
                     </div>

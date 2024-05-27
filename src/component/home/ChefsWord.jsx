@@ -14,42 +14,37 @@ const ChefsWord = () => {
            
                 <div className="flex flex-col lg:flex-row gap-y-12 justify-around items-center pt-12">
                     <div className="relative flex justify-center items-center">
-                        <div className="w-[435px] h-[435px] bg-[#DCCA87] absolute z-0 top-0 right-0">
+                    <div className="md:w-[435px] md:h-[435px] w-[235px] h-[235px] bg-[#DCCA87] absolute z-0 top-0 right-0">
+                    </div>
+                    <div className="md:w-[619px] md:h-[688px] w-[365px] h-[425px] z-10  m-6">
 
-                        </div>
-                        <div className="w-[619px] h-[688px] z-10  m-6">
+                        <Swiper loop={true}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+                            modules={[Autoplay]}
+                            className="mySwiper">
 
-                            <Swiper loop={true}
-                                autoplay={{
-                                    delay: 2500,
-                                    disableOnInteraction: false,
-                                }}
-                                modules={[Autoplay]}
-                                className="mySwiper">
-                                    
-                             <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
-                                <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
-                                <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
-                                <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
-                                <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
-                                <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
-                                <SwiperSlide> <img className="w-[619px] h-[688px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
+                                
+                            <SwiperSlide> <img className=" md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className= "md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="md:w-[619px] md:h-[688px] w-[365px] h-[425px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
 
-                            </Swiper>
-                        </div>
-                        <div className="w-[435px] h-[435px] bg-[#DCCA87] absolute z-0 bottom-0 left-0">
-
-                        </div>
-
-
-
-
+                        </Swiper>
+                    </div>
+                    <div className="md:w-[435px] md:h-[435px] w-[235px] h-[235px] bg-[#DCCA87] absolute z-0 bottom-0 left-0">
 
                     </div>
-                    <div className="font-cormorant max-w-[570px]">
+                    </div>
+                    <div className="font-cormorant max-w-[570px] px-6">
                         <h5 className="text-[23px] font-bold capitalize text-white">Chef’s Word</h5>
-                        <h1 className="text-[64px] font-bold capitalize mt-6 text-[#DCCA87] font-cormorant">What we believe in</h1>
-                        <p className="text-[16px] font-normal mt-8 text-[#AAAAAA]"> <span className="text-[47px] w-[47px]">{`"`}</span>
+                        <h1 className="lg:text-[64px] text-3xl font-bold capitalize mt-6 text-[#DCCA87] font-cormorant">What we believe in</h1>
+                        <p className="text-[16px] font-normal lg:mt-8 mt-2 text-[#AAAAAA]"> <span className="text-[47px] w-[47px]">{`"`}</span>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
 auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
                        

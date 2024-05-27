@@ -10,7 +10,7 @@ const Awards = () => {
                 <div>
                     <SectionTitleLeft titledescaption={'Awards & recognition'} title={"Our Laurels"}></SectionTitleLeft>
 
-                    <div className='grid grid-cols-2 gap-x-8 gap-y-16 '>
+                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-x-8 gap-y-16 '>
                         <div className='flex gap-x-8'>
                             <img src={g2} alt="" />
                             <div>
@@ -47,8 +47,8 @@ const Awards = () => {
 
                 </div>
                 <div className='relative'>
-                    <img className='absolute bottom-0 -left-9 w-[360px] h-[379px] text-white' src={gImage} alt="" />
-                    <img className='object-cover w-[483px] h-[691px]' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
+                    <img className='absolute bottom-0 -left-9 md:w-[360px] md:h-[379px] w-[220px] text-white' src={gImage} alt="" />
+                    <img className='object-cover md:w-[483px] md:h-[691px] w-[375px] ' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
                 </div>
             </div>
 

@@ -8,7 +8,7 @@ const SectionTitel = ({ titledescaption, title }) => {
             <p className="text-[16px] font-normal mt-8 text-[#AAAAAA]">{titledescaption}</p>
 
             <img src={spon} alt="" />
-            <h2 className="text-[64px] font-semibold text-[#DCCA87] capitalize font-cormorant">{title}</h2>
+            <h2 className=" lg:text-[64px] text-2xl font-semibold text-[#DCCA87] capitalize font-cormorant">{title}</h2>
 
         </div>
     );
