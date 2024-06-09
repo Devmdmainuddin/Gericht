@@ -5,11 +5,15 @@ import Testimony from "../component/home/Testimony";
 import Cover from "../component/shared/Cover";
 import icon from '../../public/icon.png'
 import History from "../component/History";
+import { Helmet } from "react-helmet-async";
 
 
 const AboutUs = () => {
     return (
         <div>
+            <Helmet>
+                <title>Gericht | about us </title>
+            </Helmet>
             <div>
                 <Cover title='Welcome to Gerícht' titledescaption='About Us'></Cover>
             </div>

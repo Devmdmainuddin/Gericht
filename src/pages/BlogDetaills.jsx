@@ -5,11 +5,15 @@ import { Link } from "react-router-dom";
 import { FaRegHeart, FaRegMessage } from "react-icons/fa6";
 import Newsletter from "../component/home/Newsletter";
 import icon from '../../public/icon.png'
+import { Helmet } from "react-helmet-async";
 
 const BlogDetaills = () => {
     return (
 
         <div>
+            <Helmet>
+                <title>Gericht | bloges details</title>
+            </Helmet>
             <Cover title='Our Details' titledescaption='Our Blogs- With sidebar'></Cover>
             <div className="bg-[#0C0C0C] ">
 
@@ -21,7 +25,7 @@ const BlogDetaills = () => {
                     <h2 className="text-[#DCCA87] mt-6 text-[32px] font-normal font-cormorant">tips for prepping and caring for your grill</h2>
                     <img className="h-[430px] w-full object-cover mt-10" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-[69px] bg-[#0C0C0C] pt-[152px]">
-                        <div className=" lg:col-span-2">
+                        <div className=" lg:col-span-2 px-6">
                             <p className="  text-[#AAAAAA] text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt pharetra ut lobortis id. Commodo sit libero lacus a egestas penatibus pretium quis lorem. Purus morbi sagittis, faucibus odio. Elementum felis nibh at purus consectetur phasellus lacus, pellentesque dictumst. Pellentesque eu malesuada id vitae risus, libero. Ullamcorper turpis blandit faucibus turpis. Eu elit faucibus leo eget.</p>
                             <h2 className="text-[#DCCA87] mt-6 text-[32px] font-normal font-cormorant">How to prepare your grill</h2>
                             <p className=" mt-8 text-[#AAAAAA] text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt pharetra ut lobortis id. Commodo sit libero lacus a egestas penatibus pretium quis lorem. Purus morbi sagittis, faucibus odio.</p>

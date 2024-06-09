@@ -2,10 +2,14 @@ import Cover from "../component/shared/Cover";
 import gImage from '../../public/G.png'
 import Newsletter from "../component/home/Newsletter";
 import icon from '../../public/icon.png'
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
     return (
         <div className="">
+            <Helmet>
+                <title>Gericht | contact </title>
+            </Helmet>
             <div className="  mx-auto">
                 <Cover title='contact Us' titledescaption='contact Us'></Cover>
                 <div className="bg-[url('https://i.ibb.co/84spmT4/bg-1.jpg')]  w-full bg-cover py-[128px]">

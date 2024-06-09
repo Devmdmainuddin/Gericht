@@ -9,10 +9,14 @@ import SpecialMenu from "../component/home/SpecialMenu";
 import Testimony from "../component/home/Testimony";
 import About from "./About";
 import icon from '../../public/icon.png'
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
     return (
         <div>
+             <Helmet>
+                <title>Gericht | Home </title>
+            </Helmet>
             <Hero></Hero>
 
             <About></About>

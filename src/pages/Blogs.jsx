@@ -3,10 +3,14 @@ import Cover from "../component/shared/Cover";
 import Sidebar from "../component/shared/Sidebar";
 import Newsletter from "../component/home/Newsletter";
 import icon from '../../public/icon.png'
+import { Helmet } from "react-helmet-async";
 
 const Blogs = () => {
     return (
         <div>
+            <Helmet>
+                <title>Gericht | bloges </title>
+            </Helmet>
             <div>
                 <div>
                     <Cover title='Our Blogs' titledescaption='Our Blogs- With sidebar'></Cover>

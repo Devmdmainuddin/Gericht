@@ -4,9 +4,13 @@ import Newnsletter from '../component/home/Newsletter'
 import BookTable from "../component/home/BookTable";
 import icon from '../../public/icon.png'
 import CoverMenu from "../component/shared/CoverMenu";
+import { Helmet } from "react-helmet-async";
 const Services = () => {
     return (
         <div>
+             <Helmet>
+                <title>Gericht | services </title>
+            </Helmet>
             <div>
                 <div>
                     <Cover title='What We offer' titledescaption='Our Services'></Cover>
