@@ -5,7 +5,7 @@ import 'swiper/css/free-mode';
 // import { Autoplay } from 'swiper/modules';
 const Gallery = () => {
     return (
-        <div className="bg-[#0C0C0C] pt-[280px] pb-[128px] ">
+        <div className="bg-[#0C0C0C]">
             <div className="px-8  mx-auto">
                 <div className="flex justify-center flex-col h-[449px] lg:flex-row lg:gap-y-16 gap-y-6 lg:gap-x-16 lg:items-center">
                     <div className="md:w-[491px] w-full block">

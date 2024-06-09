@@ -1,7 +1,7 @@
 import Cover from "../component/shared/Cover";
 import gImage from '../../public/G.png'
 import Newsletter from "../component/home/Newsletter";
-
+import icon from '../../public/icon.png'
 
 const Contact = () => {
     return (
@@ -30,8 +30,13 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <Newsletter></Newsletter>
-             
+
+                <div className="relative ">
+                    <Newsletter></Newsletter>
+                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  top-[42px]  -left-10 text-black z-20' src={icon} alt="" />
+                </div>
+
+
 
             </div>
 

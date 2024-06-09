@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Cover from "../component/shared/Cover";
 import Sidebar from "../component/shared/Sidebar";
+import Newsletter from "../component/home/Newsletter";
+import icon from '../../public/icon.png'
 
 const Blogs = () => {
     return (
@@ -9,7 +11,7 @@ const Blogs = () => {
                 <div>
                     <Cover title='Our Blogs' titledescaption='Our Blogs- With sidebar'></Cover>
                 </div>
-                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-[69px] bg-[#0C0C0C] pt-[152px]">
+                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-[69px] bg-[#0C0C0C] pt-[64px] px-6">
                     <div className=" lg:col-span-2">
                         <div className="grid grid-cols-1 md:grid-cols-2  gap-8 ">
                             <div>
@@ -57,9 +59,19 @@ const Blogs = () => {
 
                             </div>
                         </div>
+                        <div className='flex justify-center items-center'>
+                                <button className="bg-[#DCCA87] text-[16px] font-bold py-2 px-8 text-center mt-16 ">View More</button>
+                            </div>
                     </div>
                     <Sidebar></Sidebar>
                 </div>
+
+                <div className="relative ">
+                    <Newsletter></Newsletter>
+                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  top-[42px]  -left-10 text-black z-20' src={icon} alt="" />
+                </div>
+
+
             </div>
 
         </div>

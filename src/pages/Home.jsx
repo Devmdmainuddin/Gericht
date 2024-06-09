@@ -8,7 +8,7 @@ import Newsletter from "../component/home/Newsletter";
 import SpecialMenu from "../component/home/SpecialMenu";
 import Testimony from "../component/home/Testimony";
 import About from "./About";
-
+import icon from '../../public/icon.png'
 
 const Home = () => {
     return (
@@ -16,7 +16,13 @@ const Home = () => {
             <Hero></Hero>
 
             <About></About>
-            <BookTable></BookTable>
+            <div className="bg-[#0C0C0C] pt-[152px] pb-[152px] px-6">
+                <div className="relative max-w-[1364px] mx-auto border border-[#ebe4bf] py-12 px-8">
+                    <BookTable></BookTable>
+                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -bottom-[66px]  -left-[132px] text-black  ' src={icon} alt="" />
+                </div>
+            </div>
+
             <SpecialMenu></SpecialMenu>
             <ChefsWord></ChefsWord>
             <Testimony></Testimony>
@@ -25,8 +31,18 @@ const Home = () => {
             </div>
             <Awards></Awards>
             <Blogs></Blogs>
-            <Gallery></Gallery>
-            <Newsletter></Newsletter>
+            <div className="bg-[#0C0C0C] pt-[128px] ">
+                <div className="relative max-w-[1364px] mx-auto">
+                    <Gallery></Gallery>
+                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -bottom-[66px]  -left-[132px] ' src={icon} alt="" />
+                </div>
+            </div>
+
+           
+                    <Newsletter></Newsletter>
+            
+
+
         </div>
     );
 };
