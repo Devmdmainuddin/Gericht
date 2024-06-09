@@ -11,7 +11,8 @@ const Blogs = () => {
                 <div>
                     <Cover title='Our Blogs' titledescaption='Our Blogs- With sidebar'></Cover>
                 </div>
-                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-[69px] bg-[#0C0C0C] pt-[64px] px-6">
+                <div className="bg-[#0C0C0C] ">
+                <div className=" max-w-[1300px] mx-auto grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-[69px] pt-[64px] px-6">
                     <div className=" lg:col-span-2">
                         <div className="grid grid-cols-1 md:grid-cols-2  gap-8 ">
                             <div>
@@ -65,10 +66,14 @@ const Blogs = () => {
                     </div>
                     <Sidebar></Sidebar>
                 </div>
+                </div>
+                
 
-                <div className="relative ">
-                    <Newsletter></Newsletter>
-                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  top-[42px]  -left-10 text-black z-20' src={icon} alt="" />
+                <div className="bg-[#0C0C0C] pt-[113px]  px-6">
+                    <div className="relative max-w-[1680px] mx-auto">
+                        <Newsletter></Newsletter>
+                        <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -top-16  left-[118px] text-black z-20' src={icon} alt="" />
+                    </div>
                 </div>
 
 

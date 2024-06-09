@@ -31,9 +31,11 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="relative ">
-                    <Newsletter></Newsletter>
-                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  top-[42px]  -left-10 text-black z-20' src={icon} alt="" />
+                <div className="bg-[#0C0C0C] pt-[113px]  px-6">
+                    <div className="relative max-w-[1680px] mx-auto">
+                        <Newsletter></Newsletter>
+                        <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -top-16  left-[118px] text-black z-20' src={icon} alt="" />
+                    </div>
                 </div>
 
 

@@ -18,8 +18,10 @@ const Navbar = () => {
                 <ul className="showhid hidden lg:flex gap-x-8 flex-col  md:flex-row gap-y-4 md:static absolute top-full left-12">
                     <li><Link to='/'>home</Link></li>
                     <li><Link to='/services'>Services</Link></li>
-                    <li><Link to='/contact'>contact us</Link></li>
                     <li><Link to='/blogs'>bloge</Link></li>
+                    <li><Link to='/contact'>contact us</Link></li>
+                    <li><Link to='/aboutUs'>about Us</Link></li>
+                    
 
 
                 </ul>
@@ -37,8 +39,10 @@ const Navbar = () => {
                         <ul className="p-6 flex flex-col gap-y-6  ">
                             <li><Link to='/'>home</Link></li>
                             <li><Link to='/services'>Services</Link></li>
-                            <li><Link to='/contact'>contact us</Link></li>
                             <li><Link to='/blogs'>bloge</Link></li>
+                            <li><Link to='/contact'>contact us</Link></li>
+                            <li><Link to='/aboutUs'>about Us</Link></li>
+                            
                         </ul>
                         <ul className="flex gap-x-[50px] p-6">
                             <li><Link>login / registation</Link></li>

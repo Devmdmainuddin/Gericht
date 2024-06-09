@@ -3,7 +3,7 @@ import SectionTitel from "../shared/SectionTitel";
 
 const Newsletter = () => {
     return (
-        <div className="bg-[#0C0C0C] pt-[113px]  px-6">
+      
             <div className="max-w-[1300px] mx-auto pb-[64px] border border-[#ebe4bf]">
                 <div className="">
                     <SectionTitel className='' titledescaption={'Newsletter'} title={"Subscribe to Our Newsletter"}></SectionTitel>
@@ -16,7 +16,7 @@ const Newsletter = () => {
 
             </div>
 
-        </div>
+      
     );
 };
 

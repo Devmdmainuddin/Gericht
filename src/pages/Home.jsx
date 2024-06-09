@@ -19,7 +19,7 @@ const Home = () => {
             <div className="bg-[#0C0C0C] pt-[152px] pb-[152px] px-6">
                 <div className="relative max-w-[1364px] mx-auto border border-[#ebe4bf] py-12 px-8">
                     <BookTable></BookTable>
-                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -bottom-[66px]  -left-[132px] text-black  ' src={icon} alt="" />
+                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -bottom-[66px]  -left-[80px] text-black  ' src={icon} alt="" />
                 </div>
             </div>
 
@@ -31,16 +31,16 @@ const Home = () => {
             </div>
             <Awards></Awards>
             <Blogs></Blogs>
-            <div className="bg-[#0C0C0C] pt-[128px] ">
-                <div className="relative max-w-[1364px] mx-auto">
+           
                     <Gallery></Gallery>
-                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -bottom-[66px]  -left-[132px] ' src={icon} alt="" />
+              
+
+            <div className="bg-[#0C0C0C] pt-[113px]  px-6">
+                <div className="relative max-w-[1680px] mx-auto">
+                    <Newsletter></Newsletter>
+                    <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -top-16  left-[118px] text-black z-20' src={icon} alt="" />
                 </div>
             </div>
-
-           
-                    <Newsletter></Newsletter>
-            
 
 
         </div>
