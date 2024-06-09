@@ -5,14 +5,14 @@ const SpecialMenu = () => {
     return (
         <div className='bg-[#0C0C0C] w-full pb-[152px]'>
 
-            <div className='relative max-w-[1680px]   mx-auto'>
+            <div className='relative max-w-[1300px]   mx-auto'>
 
             <SectionTitel  titledescaption={'Menu that fits you palatte'} title={"Today’s Special"}></SectionTitel>
 
-                <div className='flex justify-center flex-col lg:flex-row items-center gap-x-8 mt-[64px] px-6'>
+                <div className='flex justify-center flex-col lg:flex-row items-center gap-y-8 lg:gap-x-8  mt-[64px] px-6'>
 
                     <div>
-                        <h2 className='text-[45px] text-white font-cormorant'>Wine & Beer</h2>
+                        <h2 className='lg:text-[45px] text-2xl text-white font-cormorant'>Wine & Beer</h2>
                         <div className='flex gap-x-2 lg:gap-x-8 items-start  mt-12'>
                             <div>
                                 <h3 className='text-[#DCCA87] text-[23px] font-bold font-cormorant'>Chapel Hill Shiraz</h3>
@@ -65,10 +65,10 @@ const SpecialMenu = () => {
                     </div>
                     <div>
 
-                        <img src="https://i.ibb.co/gzzzYQt/3596233-1.jpg" alt="" />
+                        <img src="https://i.ibb.co/gzzzYQt/3596233-1.jpg" alt="" className='w-full' />
                     </div>
                     <div>
-                        <h2 className='text-[45px] text-white font-cormorant'>Wine & Beer</h2>
+                        <h2 className='lg:text-[45px] text-2xl text-white font-cormorant'>Wine & Beer</h2>
                         <div className='flex gap-x-2 lg:gap-x-8 items-start  mt-12'>
                             <div>
                                 <h3 className='text-[#DCCA87] text-[23px] font-bold font-cormorant'>Chapel Hill Shiraz</h3>

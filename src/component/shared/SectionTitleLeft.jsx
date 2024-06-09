@@ -6,7 +6,7 @@ const SectionTitleLeft = ({ titledescaption, title }) => {
             <p className="text-[16px] font-normal mt-8 text-[#AAAAAA]">{titledescaption}</p>
 
             <img className='mt-2' src={spon} alt="" />
-            <h2 className="lg:text-[64px] text-3xl font-semibold text-[#DCCA87] capitalize font-cormorant">{title}</h2>
+            <h2 className="lg:text-[64px] text-3xl mt-4 font-semibold text-[#DCCA87] capitalize font-cormorant">{title}</h2>
 
         </div>
     );

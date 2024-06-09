@@ -6,7 +6,7 @@ import SectionTitel from '../shared/SectionTitel';
 const Testimony = () => {
     return (
         <div className='bg-[#0C0C0C] w-full py-[152px]'>
-            <div className=' max-w-[1680px]   mx-auto'>
+            <div className=' max-w-[1300px]   mx-auto'>
               
                 <SectionTitel className='mx-auto inline-block' titledescaption={'Testimony'} title={"Happy customers"}></SectionTitel>
                    
@@ -15,7 +15,7 @@ const Testimony = () => {
                     <div className=' flex flex-col lg:flex-row items-center gap-y-8 lg:gap-x-8  mb-[64px]'>
                         <div className='relative'>
                             
-                            <img className='w-[190px] h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
+                            <img className='w-full h-[430px] lg:w-[190px] lg:h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
                             <img src={que} alt="" className='absolute -bottom-5 -right-5 h-10 w-12' />
                         </div>
 
@@ -29,7 +29,7 @@ const Testimony = () => {
                     <div className=' flex flex-col lg:flex-row  items-center gap-y-8 lg:gap-x-8 mb-[64px]'>
                         <div className='relative'>
                             
-                            <img className='w-[190px] h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
+                            <img className='w-full h-[430px] lg:w-[190px] lg:h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
                             <img src={que} alt="" className='absolute -bottom-5 -right-5 h-10 w-12' />
                         </div>
 
@@ -43,7 +43,7 @@ const Testimony = () => {
                     <div className='  flex flex-col lg:flex-row items-center gap-y-8 lg:gap-x-8'>
                         <div className='relative'>
                             
-                            <img className='w-[190px] h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
+                            <img className='w-full h-[430px] lg:w-[190px] lg:h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
                             <img src={que} alt="" className='absolute -bottom-5 -right-5 h-10 w-12' />
                         </div>
 
@@ -57,7 +57,7 @@ const Testimony = () => {
                     <div className='  flex flex-col lg:flex-row items-center gap-y-8 lg:gap-x-8'>
                         <div className='relative'>
                             
-                            <img className='w-[190px] h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
+                            <img className='w-full h-[430px] lg:w-[190px] lg:h-[190px] object-cover' src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" />
                             <img src={que} alt="" className='absolute -bottom-5 -right-5 h-10 w-12' />
                         </div>
 

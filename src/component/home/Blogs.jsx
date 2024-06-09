@@ -6,7 +6,7 @@ import SectionTitel from "../shared/SectionTitel";
 const Blogs = () => {
     return (
         <div className="bg-[#0C0C0C] pt-[331px] pb-[152px] ">
-           <div className="max-w-[1300px] lg:gap-x-[111px]   mx-auto">
+           <div className="max-w-[1300px] lg:gap-x-[111px] px-6  mx-auto">
            <div className="">
                 <SectionTitel  titledescaption={'Blogs'} title={"Gerícht updates"}></SectionTitel>
             </div>

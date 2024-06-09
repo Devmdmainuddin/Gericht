@@ -5,10 +5,10 @@ import { CiMenuBurger } from "react-icons/ci";
 import logo from '../../public/logo.png'
 const Navbar = () => {
     // const [isMenuOpen, setIsMenuOpen] = useState(false)
-const show=()=>{
-    const togglemenu = document.querySelector('.togglemenu')
-    togglemenu.classList.toggle("opacity-100")
-}
+    const show = () => {
+        const togglemenu = document.querySelector('.togglemenu')
+        togglemenu.classList.toggle("opacity-100")
+    }
 
     return (
         <div className="w-full bg-[#0C0B08]">
@@ -20,7 +20,7 @@ const show=()=>{
                     <li><Link to='/services'>Services</Link></li>
                     <li><Link to='/contact'>contact us</Link></li>
                     <li><Link to='/blogs'>bloge</Link></li>
-                   
+
 
                 </ul>
                 <div className="hidden lg:flex">
@@ -35,16 +35,15 @@ const show=()=>{
                 <div className="flex lg:hidden ">
                     <div className="togglemenu absolute top-full left-0 bg-slate-700 w-full opacity-0 z-30">
                         <ul className="p-6 flex flex-col gap-y-6  ">
-                            <li><Link>home</Link></li>
-                            <li><Link>pages</Link></li>
-                            <li><Link>contact us</Link></li>
-                            <li><Link>bloge</Link></li>
-                            <li><Link>landing</Link></li>
+                            <li><Link to='/'>home</Link></li>
+                            <li><Link to='/services'>Services</Link></li>
+                            <li><Link to='/contact'>contact us</Link></li>
+                            <li><Link to='/blogs'>bloge</Link></li>
                         </ul>
                         <ul className="flex gap-x-[50px] p-6">
-                        <li><Link>login / registation</Link></li>
-                        <li><Link>book table</Link></li>
-                    </ul>
+                            <li><Link>login / registation</Link></li>
+                            <li><Link>book table</Link></li>
+                        </ul>
                     </div>
 
 
