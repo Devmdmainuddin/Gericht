@@ -4,12 +4,13 @@ import que from '../../public/que.png'
 import { Link } from "react-router-dom";
 import { FaRegHeart, FaRegMessage } from "react-icons/fa6";
 import Newsletter from "../component/home/Newsletter";
+import icon from '../../public/icon.png'
 
 const BlogDetaills = () => {
     return (
 
         <div>
-            <Cover title='Our Blogs' titledescaption='Our Blogs- With sidebar'></Cover>
+            <Cover title='Our Details' titledescaption='Our Blogs- With sidebar'></Cover>
             <div className="bg-[#0C0C0C] ">
 
                 <div className="max-w-[1300px] mx-auto">
@@ -85,7 +86,12 @@ const BlogDetaills = () => {
                     </div>
                 </div>
             </div>
-            <Newsletter></Newsletter>
+            <div className="bg-[#0C0C0C] pt-[113px]  px-6">
+                    <div className="relative max-w-[1680px] mx-auto">
+                        <Newsletter></Newsletter>
+                        <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  lg:-top-16 -top-8  -left-8 lg:left-[118px] text-black z-20' src={icon} alt="" />
+                    </div>
+                </div>
         </div>
 
 

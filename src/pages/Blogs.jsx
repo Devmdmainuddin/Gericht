@@ -23,7 +23,7 @@ const Blogs = () => {
                                 </div>
                                 <h2 className="text-[#DCCA87] mt-8 text-[32px] font-normal font-cormorant">tips for prepping and caring for your grill</h2>
                                 <p className=" mt-8 text-[#AAAAAA] text-[16px]">Lorem ipsum dolor sit mate, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                                <Link className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
+                                <Link to='/blogsDetaills' className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
 
                             </div>
                             <div>
@@ -34,7 +34,7 @@ const Blogs = () => {
                                 </div>
                                 <h2 className="text-[#DCCA87] mt-8 text-[32px] font-normal font-cormorant">tips for prepping and caring for your grill</h2>
                                 <p className=" mt-8 text-[#AAAAAA] text-[16px]">Lorem ipsum dolor sit mate, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                                <Link className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
+                                <Link to='/blogsDetaills' className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
 
                             </div>
                             <div>
@@ -45,7 +45,7 @@ const Blogs = () => {
                                 </div>
                                 <h2 className="text-[#DCCA87] mt-8 text-[32px] font-normal font-cormorant">tips for prepping and caring for your grill</h2>
                                 <p className=" mt-8 text-[#AAAAAA] text-[16px]">Lorem ipsum dolor sit mate, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                                <Link className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
+                                <Link to='/blogsDetaills' className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
 
                             </div>
                             <div>
@@ -56,7 +56,7 @@ const Blogs = () => {
                                 </div>
                                 <h2 className="text-[#DCCA87] mt-8 text-[32px] font-normal font-cormorant">tips for prepping and caring for your grill</h2>
                                 <p className=" mt-8 text-[#AAAAAA] text-[16px]">Lorem ipsum dolor sit mate, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                                <Link className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
+                                <Link to='/blogsDetaills' className="text-[#DCCA87] inline-block mt-8 mb-16">Read More</Link>
 
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Blogs = () => {
                 <div className="bg-[#0C0C0C] pt-[113px]  px-6">
                     <div className="relative max-w-[1680px] mx-auto">
                         <Newsletter></Newsletter>
-                        <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  -top-16  left-[118px] text-black z-20' src={icon} alt="" />
+                        <img className='lg:w-[132px] lg:h-[132px] w-[60px] h-[60px] absolute  lg:-top-16 -top-8  -left-8 lg:left-[118px] text-black z-20' src={icon} alt="" />
                     </div>
                 </div>
 
