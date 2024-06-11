@@ -6,6 +6,9 @@ import Blogs from "../pages/Blogs";
 import Services from "../pages/Services";
 import BlogDetaills from "../pages/BlogDetaills";
 import AboutUs from "../pages/AboutUs";
+import Registation from "../pages/Registation";
+import Login from "../pages/Login";
+import BookTable from "../component/home/BookTable";
 
 
 
@@ -37,6 +40,18 @@ const router = createBrowserRouter([
         {
           path: "/aboutUs",
           element: <AboutUs/>,
+        },
+        {
+          path: "/booktable",
+          element: <BookTable/>,
+        },
+        {
+          path: "/login",
+          element: <Login/>,
+        },
+        {
+          path: "/registation",
+          element: <Registation></Registation>,
         },
       ],
     },

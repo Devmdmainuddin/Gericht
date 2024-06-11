@@ -32,16 +32,16 @@ const Gallery = () => {
                                 
                               }}
                      
-                            className="gallery h-[447px] ">
+                            className="gallery lg:h-[447px] h-[330px]">
 
 
-                            <SwiperSlide> <img className="w-full  h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className=" w-full  h-[447px]  object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className=" w-full  h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className=" w-full h-[447px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className=" w-full  h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className=" w-full  h-[447px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide> <img className=" w-full  h-[447px]  object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className="w-full  lg:h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className=" w-full  lg:h-[447px]  object-cover" src="https://i.ibb.co/fqCSqbS/pexels-cottonbro-4252136.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className=" w-full  lg:h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className=" w-full lg:h-[447px] object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className=" w-full  lg:h-[447px] object-cover" src="https://i.ibb.co/QM0knDP/Mask-Group.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className=" w-full  lg:h-[447px] object-cover" src="https://i.ibb.co/H4xBtXc/pexels-kampus-production-5920733.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide> <img className=" w-full  lg:h-[447px]  object-cover" src="https://i.ibb.co/SPFsxxt/pexels-ron-lach-8879653-1.jpg" alt="" /></SwiperSlide>
 
                         </Swiper>
                     </div>

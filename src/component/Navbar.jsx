@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
-// import { useState } from "react";
+import avatarImg from '../assets/user-profile.png'
 // import { IoMdCloseCircleOutline } from "react-icons/io";
 import logo from '../../public/logo.png'
+import useAuth from "../hooks/useAuth";
+import { useState } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
-    // const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const {user,logOut}= useAuth()
+    const [isOpen, setIsOpen] = useState(false)
     const show = () => {
         const togglemenu = document.querySelector('.togglemenu')
         togglemenu.classList.toggle("opacity-100")
@@ -25,13 +29,59 @@ const Navbar = () => {
 
 
                 </ul>
-                <div className="hidden lg:flex">
-                    <ul className=" flex gap-x-[50px]">
-                        <li><Link>login / registation</Link></li>
-                        <li><Link>book table</Link></li>
-                    </ul>
-
+                <div className="hidden lg:flex lg:flex-col">
+                    <ul className=" flex gap-x-[50px] items-center">
+                    <div
+                  onClick={() => setIsOpen(!isOpen)}
+                  className='p-4 md:py-1 md:px-2 border-[1px] border-neutral-200 flex flex-row items-center gap-3 rounded-full cursor-pointer hover:shadow-md transition'
+                >
+                  <AiOutlineMenu />
+                  <div className='hidden md:block'>
+                    {/* Avatar */}
+                    <img
+                      className='rounded-full'
+                      referrerPolicy='no-referrer'
+                      src={user && user.photoURL ? user.photoURL : avatarImg}
+                      alt='profile'
+                      height='30'
+                      width='30'
+                    />
+                  </div>
                 </div>
+                        <li><Link to='/booktable'>book table</Link></li>
+                    </ul>
+                    {isOpen && (
+                <div className=' rounded-xl shadow-md w-[40vw] md:w-[10vw]  overflow-hidden  text-sm'>
+                
+
+                    {user ? (
+                      <>
+                     
+                        <div
+                          onClick={logOut}
+                          className='px-4 absolute py-3 hover:text-[#f5cc5a] transition font-semibold cursor-pointer'
+                        >
+                          Logout
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <Link
+                          to='/registation'
+                          className='px-4 py-3 absolute hover:text-[#f5cc5a] transition font-semibold'
+                        >
+                          Login/signUp
+                        </Link>
+                       
+                      </>
+                    )}
+                  </div>
+             
+              )}
+                </div>
+             
+
+
                 <CiMenuBurger onClick={show} className="lg:hidden inline-block " />
 
                 <div className="flex lg:hidden ">
@@ -42,12 +92,30 @@ const Navbar = () => {
                             <li><Link to='/blogs'>bloge</Link></li>
                             <li><Link to='/contact'>contact us</Link></li>
                             <li><Link to='/aboutUs'>about Us</Link></li>
-                            
+                            <li><Link  to='/booktable'>book table</Link></li>
                         </ul>
-                        <ul className="flex gap-x-[50px] p-6">
-                            <li><Link>login / registation</Link></li>
-                            <li><Link>book table</Link></li>
+                        <ul className="flex gap-y-6 p-6 flex-col items-center">
+                            {
+                            user ?  <><img
+                            className='rounded-full'
+                            referrerPolicy='no-referrer'
+                            src={user && user.photoURL ? user.photoURL : avatarImg}
+                            alt='profile'
+                            height='30'
+                            width='30'
+                          />
+                          <div
+                          onClick={logOut}
+                          className='px-4 py-3 hover:bg-neutral-100 transition font-semibold cursor-pointer'
+                        >
+                          Logout
+                        </div>
+                           </>  : <li><Link to='/registation'>login / registation</Link></li>
+                            }
+                           
+                           
                         </ul>
+                       
                     </div>
 
 

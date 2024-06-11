@@ -11,7 +11,7 @@ const BookTable = () => {
     const [value, onChange] = useState('10:00');
     return (
         <div className='bg-[#0C0C0C] w-full '>
-            <div className=' max-w-[1680px] mx-auto '>
+            <div className=' max-w-[1680px] mx-auto px-6'>
                
                 <div className=''>
                 <SectionTitel  titledescaption={'Reservations'} title={"Book A Table"}></SectionTitel>

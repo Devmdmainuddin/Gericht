@@ -1,9 +1,9 @@
 
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
 
 
-const firebaseConfig = {
+
+const firebaseConfic = {
     apiKey: import.meta.env.VITE_apiKey,
     authDomain: import.meta.env.VITE_authDomain,
     projectId: import.meta.env.VITE_projectId,
@@ -15,7 +15,7 @@ const firebaseConfig = {
 };
 
 
-const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfic);
 
-const auth = getAuth(app);
-export default auth
+
+ 
