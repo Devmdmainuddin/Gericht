@@ -17,7 +17,7 @@ const BlogDetaills = () => {
             <Cover title='Our Details' titledescaption='Our Blogs- With sidebar'></Cover>
             <div className="bg-[#0C0C0C] ">
 
-                <div className="max-w-[1300px] mx-auto">
+                <div className="max-w-[1300px] mx-auto px-6">
                     <div className="flex justify-between items-center text-white pt-[152px]">
                         <p >16 Apr 2021</p>
                         <p>- Annalisa L</p>

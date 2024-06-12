@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Gblack from '../../public/Gblack.png'
 import knip from '../../public/kn.png'
 import spon from '../../public/spoon.png'
@@ -11,7 +12,7 @@ const About = () => {
                     <h2 className="md:text-[64px] text-3xl font-semibold text-[#DCCA87] capitalize font-cormorant">About Us</h2>
                     <img className='-rotate-180 mt-6' src={spon} alt="" />
                     <p className="text-[16px] font-normal md:text-right text-center mt-8 text-[#AAAAAA]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-                    <button className="bg-[#DCCA87] text-[16px] font-bold py-2 px-8 text-center mt-8">Know More</button>
+                    <Link to='/aboutUs' className="bg-[#DCCA87] text-[16px] font-bold py-2 px-8 text-center mt-8">Know More</Link>
                 </div>
                 <div className=' z-20   flex justify-center items-center '>
                     <img className='w-[84px] md:h-[703px] h-[503px]' src={knip} alt="" />
@@ -23,7 +24,7 @@ const About = () => {
                     <h2 className="md:text-[64px] text-3xl font-semibold text-[#DCCA87] capitalize font-cormorant">Our History</h2>
                     <img className='mt-6' src={spon} alt="" />
                     <p className="text-[16px] w-full font-normal mt-8 text-[#AAAAAA]">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
-                    <button className="bg-[#DCCA87] text-[16px] font-bold py-2 mb-8 lg:mb-0 px-8 text-center mt-8">Know More</button>
+                    <Link to='/aboutUs' className="bg-[#DCCA87] text-[16px] font-bold py-2 mb-8 lg:mb-0 px-8 text-center mt-8">Know More</Link>
                 </div>
             </div>
 

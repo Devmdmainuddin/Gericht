@@ -11,7 +11,7 @@ const Sidebar = () => {
                         <div className="p-8  bg-[#242424]">
                             <h2 className=" font-normal text-3xl font-cormorant text-[#f1cd4d]">Search Page</h2>
                             <form action="" className=" flex justify-between mt-6" >
-                                <input type="search" name="" id="" placeholder="Example" className=" w-full outline-none  border-b-2  bg-transparent border-[#d4d3d3] " />
+                                <input type="search" name="" id="" placeholder="Example" className=" w-full outline-none text-white  border-b-2  bg-transparent border-[#d4d3d3] " />
                                 <IoSearchOutline className="text-white text-lg" />
                             </form>
                         </div>
